@@ -17,3 +17,7 @@ test('expect to render without crashing', () => {
 })
 
 test('expect 1 + 2 to equal 3', () => expect(addTwo(1, 2)).toBe(3))
+test('expect 10 + 20 to equal 30', () => expect(addTwo(10, 20)).toBe(30))
+test('expect 15 + 2 to equal 17', () => expect(addTwo(15, 2)).toBe(17))
+test('expect 100 + 20 to equal 120', () => expect(addTwo(100, 20)).toBe(120))
+test('expect 4 + 3 to equal 7', () => expect(addTwo(4, 3)).toBe(7))
