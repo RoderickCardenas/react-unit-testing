@@ -25,3 +25,4 @@ test('expect 100 + 20 to equal 120', () =>
 test('expect 4 + 3 to equal 7', () => expect(Numbers.addTwo(4, 3)).toBe(7))
 
 test('expect 2 * 2 to equal 4', () => expect(Numbers.double(2)).toBe(4))
+test('expect 2 * 4 to equal 8', () => expect(Numbers.double(2)).toBe(8))
